@@ -1,0 +1,10 @@
+# GIT
+alias g='git'
+
+# CURL 
+alias jcurl='curl -sH "content-type: application/json" '
+
+# CLI
+alias ..='cd ../'
+alias ...='cd ../../'
+
