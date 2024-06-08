@@ -11,3 +11,5 @@
 - Show Desktop: `Ctrl+Alt+D`
 - Raise window (bring to the front): `Shift+Alt+Up`
 - Lower window (send to bg): `Shift+Alt+Down`
+- Maximize window: `Shift+Up`
+- Hide Window: `Shift+Down`
