@@ -1,0 +1,15 @@
+# GO 
+export PATH=$PATH:/usr/local/go/bin
+
+# git prompt 
+# download from https://github.com/magicmonty/bash-git-prompt
+if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
+    GIT_PROMPT_ONLY_IN_REPO=1
+    source "$HOME/.bash-git-prompt/gitprompt.sh"
+fi
+
+# !! LEAVE LAST  Launch tmux on interactive log-in
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  tmux new -As welcome || true
+fi
+

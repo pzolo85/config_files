@@ -1,0 +1,8 @@
+[user]
+	email = pzolo@protonmail.com
+	name = pzolo85
+[alias]
+	co = checkout
+	ci = commit
+	st = status --short
+	slog = log --oneline

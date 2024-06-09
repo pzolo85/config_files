@@ -17,3 +17,6 @@
 - Revert the changes in xmodmap 
 - Edit the `/etc/default/keyboard` file and include: `XKBOPTIONS="caps:escape"`
 - reboot 
+
+## Download git-prompt (may wan to git pull every now and then)
+- `git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1`
